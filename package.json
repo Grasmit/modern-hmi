@@ -1,0 +1,28 @@
+{
+  "name": "modern-hmi",
+  "version": "1.0.0",
+  "description": "Modern web HMI demo with OPC-UA simulator, Node backend, and HTML5 UI",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "simulate": "node src/plc-simulator.js",
+    "dev": "concurrently \"npm run simulate\" \"npm run start\""
+  },
+  "dependencies": {
+    "chokidar": "3.5.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-opcua": "^2.119.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "overrides": {
+    "chokidar": "3.5.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

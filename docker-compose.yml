@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  opc-sim:
+    build: .
+    command: ["node", "src/plc-simulator.js"]
+    ports:
+      - "4840:4840"
+  hmi:
+    build: .
+    command: ["node", "src/server.js"]
+    depends_on:
+      - opc-sim
+    environment:
+      - OPC_ENDPOINT=opc.tcp://opc-sim:4840
+      - PORT=3000
+    ports:
+      - "3000:3000"
