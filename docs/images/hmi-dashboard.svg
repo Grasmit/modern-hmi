@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a1f35"/>
+      <stop offset="100%" stop-color="#0f1428"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#161b2f"/>
+      <stop offset="100%" stop-color="#0f1324"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <text x="60" y="70" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">Modern HMI – Parts Cleaner</text>
+  <text x="60" y="98" fill="#c7cee6" font-family="Segoe UI, sans-serif" font-size="16">OPC-UA driven, React front-end, Socket.io live feed</text>
+  <rect x="60" y="140" width="360" height="250" rx="16" fill="url(#card)" stroke="#222a44"/>
+  <text x="90" y="175" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700">Temperature</text>
+  <circle cx="200" cy="265" r="80" stroke="#202a44" stroke-width="12" fill="none"/>
+  <path d="M120 265 A80 80 0 0 1 280 265" stroke="#2ee6a9" stroke-width="12" fill="none"/>
+  <path d="M160 200 A80 80 0 0 1 240 330" stroke="#ffb347" stroke-width="12" fill="none" opacity="0.8"/>
+  <path d="M210 185 A80 80 0 0 1 260 310" stroke="#ff5f6d" stroke-width="12" fill="none" opacity="0.9"/>
+  <line x1="200" y1="195" x2="200" y2="250" stroke="#f5f7fb" stroke-width="5"/>
+  <circle cx="200" cy="265" r="10" fill="#0f1428" stroke="#f5f7fb" stroke-width="4"/>
+  <text x="270" y="210" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="32" font-weight="700">82.4°C</text>
+
+  <rect x="450" y="140" width="200" height="250" rx="16" fill="url(#card)" stroke="#222a44"/>
+  <text x="475" y="175" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700">Control</text>
+  <rect x="475" y="200" width="150" height="44" rx="12" fill="#2ee6a9"/>
+  <text x="500" y="230" fill="#0c172d" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700">Start Cleaning</text>
+  <rect x="475" y="260" width="150" height="44" rx="12" fill="#1c2744" stroke="#2f3a5f"/>
+  <text x="540" y="289" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Stop</text>
+  <text x="475" y="325" fill="#c7cee6" font-family="Segoe UI, sans-serif" font-size="12">Writes PumpStatus to the PLC</text>
+
+  <rect x="680" y="140" width="220" height="250" rx="16" fill="url(#card)" stroke="#222a44"/>
+  <text x="705" y="175" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700">Status</text>
+  <text x="705" y="210" fill="#c7cee6" font-family="Segoe UI, sans-serif" font-size="14">Cleaning Cycle</text>
+  <text x="880" y="210" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" text-anchor="end">12</text>
+  <rect x="705" y="230" width="90" height="30" rx="16" fill="#2ee6a9"/>
+  <text x="750" y="250" fill="#0c172d" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Pump ON</text>
+  <rect x="705" y="275" width="90" height="30" rx="16" fill="#ff5f6d"/>
+  <text x="750" y="295" fill="#0c172d" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Overheat</text>
+  <text x="705" y="330" fill="#c7cee6" font-family="Segoe UI, sans-serif" font-size="14">Last Update</text>
+  <text x="880" y="330" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="end">12:04:22</text>
+
+  <text x="60" y="430" fill="#8e95b3" font-family="Segoe UI, sans-serif" font-size="14">Real-time feed via OPC-UA subscription ➜ Socket.io ➜ React UI</text>
+</svg>
