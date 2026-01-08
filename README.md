@@ -1,4 +1,4 @@
-# Project 1: Modern Web HMI (OPC-UA + React)
+# Modern Web HMI (OPC-UA + React)
 
 A compact demo showing a browser HMI that connects to a simulated PLC via OPC-UA, streams data over WebSockets, and lets you start/stop the machine. UI is implemented in React (UMD, no build step) for a familiar component model while staying lightweight.
 
